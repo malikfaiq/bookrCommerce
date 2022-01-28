@@ -6,16 +6,16 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('products', '0001_initial'),
+        ("products", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterModelTable(
-            name='product',
-            table='products',
+            name="product",
+            table="products",
         ),
         migrations.AlterModelTable(
-            name='purchasedetails',
-            table='purchase_details',
+            name="purchasedetails",
+            table="purchase_details",
         ),
     ]
